@@ -159,15 +159,7 @@
                 disallowed: false,
                 deprecated: false,
             },
-            {
-                is: "property",
-                name: "aria-relevant",
-                required: false,
-                disallowed: false,
-                deprecated: false,
-            },
-            {
-                is: "property",
+           
                 name: "aria-roledescription",
                 required: false,
                 disallowed: false,
@@ -177,20 +169,7 @@
     },
     alertdialog: {
         name: "alertdialog",
-        fragID: "alertdialog",
-        parentRoles: ["alert", "dialog"],
-        localprops: [],
-    },
-    application: {
-        name: "application",
-        fragID: "application",
-        parentRoles: ["structure"],
-        localprops: [
-            {
-                is: "property",
-                name: "aria-activedescendant",
-                required: false,
-                disallowed: false,
+        fragID: lse,
                 deprecated: false,
             },
             {
